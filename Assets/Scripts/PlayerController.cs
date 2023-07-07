@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     bool ground = true;
-    public float gravity = -25;
+    public float gravity = -25.0f;
     public float speed = 5;
     public float jump = 10;
     Rigidbody2D rgb;
